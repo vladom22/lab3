@@ -1,0 +1,45 @@
+h1 , h2 , span {
+    color: red;
+}
+
+div p {
+    font-weight: 600;
+}
+
+ul li>span{
+    font-weight: 600;
+}
+
+ol li + li {
+    list-style-type: none;
+}
+
+h3 ~ h4 {
+    color: aqua;
+}
+
+.block{
+    width: 400px;
+    height: 400px;
+    background-color: #4626b8;
+}
+
+.block {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  #block1 {
+    background-color: lime;
+  }
+  
+  #block2 {
+    border-radius: 50px;
+  }
+  
+  .block_border {
+    border: 4px solid blue;
+  }
